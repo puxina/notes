@@ -1,5 +1,3 @@
-# notes
-
 ## Sites com dicas do Virtuoso e/ou analógico
 
 - https://miscircuitos.com/
@@ -15,6 +13,7 @@
   Edit the .cdsinit to include the following
 
   hiSetFont(“label” ?size 18)
+  
   hiSetFont(“text” ?size 18)
 
 * Delta markers:
@@ -29,5 +28,6 @@
   
   To make “cellview” the default option when you go to load or save a state in ADE L, in the directory in which you run Virtuoso edit (or create) the .cdsinit file and somewhere (usually put all of your customizations at the end) add these lines (the first is just a comment reminding you what the next line does):
   
-  ; make ADE L save / load state option default to cellview 
+  ; make ADE L save / load state option default to cellview
+  
   envSetVal("asimenv" "saveAsCellview" 'boolean t)
